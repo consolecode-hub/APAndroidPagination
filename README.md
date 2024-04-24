@@ -1,5 +1,4 @@
 # AP Android Pagination
-Config Details
 
 ![Screenshot_20240424-134632](https://github.com/consolecode-hub/APAndroidPagination/assets/3745464/63e5641f-6101-4b97-933d-2ad06a674abd)
 
