@@ -1,23 +1,23 @@
 # AP Android Pagination
-Login Details
+Congig Details
 
 ![Screenshot_20240424-134632](https://github.com/consolecode-hub/APAndroidPagination/assets/3745464/63e5641f-6101-4b97-933d-2ad06a674abd)
-
 
 https://github.com/consolecode-hub/APAndroidPagination/assets/3745464/0e5778d7-ee1c-49b9-a0cf-76a4a33db82a
 
 
-Try material login xml design
+Android Pagination app using Jetpack Compose
 
-Android Pagination Screen
- 
+Android Material Design 3 [login](https://m3.material.io/) screen with androidx dependency
 
-XML layout design for android
+defaultConfig
+        minSdk = 24
+        targetSdk = 34
+        
+        jvmTarget = "1.8"
 
-Android Material login screen with androidx dependency
-
-buildToolsVersion 30.0.1
-
-minSdkVersion 14
-
-implementation 'com.google.android.material:material:1.0.0'
+    implementation ("androidx.compose.material3:material3-*:1.2.0")
+    implementation ("com.google.code.gson:gson:2.8.8")
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("io.coil-kt:coil-compose:2.6.0")
